@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rodrigoS3.Page2">
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource stackLayoutStyle}">
+            <Label Text="SEMANA 3" FontSize="18"/>
+            <Label Text="lbDatoUno" Style="{StaticResource labelStyle}"></Label>
+            <Label Text="lbDatoDos" Style="{StaticResource labelStyle}"></Label>
+            <Button x:Name="btnAbrirP" Text="Abrir" Clicked="btnAbrirP_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property = "TextColor" Value="Fuchsia" />
+                <Setter Property = "FontSize"  Value="20" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+</ContentPage>
